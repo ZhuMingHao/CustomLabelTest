@@ -12,6 +12,7 @@ namespace CustomLabelTest
         public MainPage()
         {
             InitializeComponent();
+            MyLabel.Text = "<a href =\"https://www.w3schools.com\">W3School</a>";
         }
     }
 }

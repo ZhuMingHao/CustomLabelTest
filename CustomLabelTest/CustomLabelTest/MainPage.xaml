@@ -5,7 +5,7 @@
              x:Class="CustomLabelTest.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <local:CustomLabel Text="Welcome to Xamarin.Forms!" x:Name="MyLabel"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

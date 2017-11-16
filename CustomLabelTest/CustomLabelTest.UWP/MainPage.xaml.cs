@@ -22,11 +22,11 @@ namespace CustomLabelTest.UWP
         {
             this.InitializeComponent();
 
-            //LoadApplication(new CustomLabelTest.App());
+            LoadApplication(new CustomLabelTest.App());
 
 
-            var te = "<a href=\"https://www.w3schools.com\">W3School</a>";
-            Test.Text = te;
+            // var te = "<a href=\"https://www.w3schools.com\">W3School</a>";
+            // Test.Text = te;
         }
     }
 }
